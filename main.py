@@ -17,11 +17,11 @@ def temp_finder():
 temp_finder()
 
 def temp_eval():
-    if temp <= 32:
-        print("It is very cold. There is a chance school could be closed. Keep an eye on the news.")
-    elif temp >= 65:
-        print("It is going to be warm today, make sure to drink water.")
+    if temperature <= 32:
+        print("It is very cold. It is " + temp[0].txt + ". There is a chance school could be closed. Keep an eye on the news.")
+    elif temperature >= 65:
+        print("It is going to be warm today. It is currently, "  + temp[0].txt + "degrees. Make sure to drink water.")
     else:
-        print("It will be a normal day, prepare for school as normal.")
+        print("It will be a normal day. It is currently, "  + temp[0].txt + "degrees. Prepare for school as normal.")
 temp_eval()
 
