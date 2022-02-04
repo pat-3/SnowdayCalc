@@ -13,3 +13,12 @@ temp = soup.find_all('div', attrs={"class": "BNeawe iBp4i AP7Wnd"})
 print("################################################")
 print(f"Tempature outside in {city}, {state} currently is: " + temp[0].text + ".")
 print("################################################")
+
+def(temp_eval):
+    if temp <= 32:
+        print("It is very cold. There is a chance school could be closed. Keep an eye on the news.")
+    elif temp >= 65:
+        print("It is going to be warm today, make sure to drink water.")
+    else:
+        print("It will be a normal day, prepare for school as normal.")
+temp_eval()
