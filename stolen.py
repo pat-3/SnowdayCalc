@@ -9,7 +9,7 @@ sender_email = ""#add email inside the quotations
 password = ""#Add password inside the quotations
 
 def SendMessage(message):
-    receiver_email = "beeman_lucas@student.mahoningctc.com"
+    receiver_email = "" #add email you are sending it to inside the quotations
 
     context = ssl.create_default_context()
     with smtplib.SMTP(smtp_server, port) as server:
