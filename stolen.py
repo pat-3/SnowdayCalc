@@ -5,8 +5,8 @@ import math
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
-sender_email = "sawman_quentin@student.mahoningctc.com"
-password = "E0095CAa1"
+sender_email = ""#add email inside the quotations
+password = ""#Add password inside the quotations
 
 def SendMessage(message):
     receiver_email = "beeman_lucas@student.mahoningctc.com"
