@@ -2,8 +2,6 @@ import smtplib, ssl
 from threading import local
 import requests
 import math
-import schedule
-import time
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
